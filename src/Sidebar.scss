@@ -1,0 +1,5 @@
+@import "./Scss/Mixins";
+
+.sidebar {
+  @include flexbox;
+}
