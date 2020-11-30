@@ -1,0 +1,5 @@
+@import "./Scss/Mixins";
+
+.chat {
+  @include flexbox(0.65);
+}

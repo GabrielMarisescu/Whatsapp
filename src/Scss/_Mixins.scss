@@ -1,5 +1,16 @@
-@mixin flexbox() {
+@mixin flexbox($number) {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex-direction: column;
+  flex: $number;
+}
+
+@mixin grid() {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+@mixin flexboxAlignmentCenter() {
+  display: flex;
+  align-items: center;
 }
