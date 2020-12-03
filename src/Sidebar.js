@@ -13,10 +13,10 @@ function Sidebar() {
     
 
             <div className="sidebar__header">
-                <Avatar src="https://t-power89.github.io/images/avatar.jpg" />
+                <Avatar src="https://images2.corriereobjects.it/methode_image/2019/11/11/Spettacoli/Foto%20Spettacoli%20-%20Trattate/4309.0.516421493-k3nB-U31507751348767QB-1224x916@Corriere-Web-Sezioni-593x443.jpg?v=20191111102617" />
 
                 <div className="sidebar__headerRight">
-                    <IconButton>
+                    <IconButton >
                     <DonutLargeIcon />
                     </IconButton>
 
